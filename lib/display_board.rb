@@ -18,4 +18,4 @@ def holla(x, y)
     puts y    end
     end
 
-holla(27, yoyoyo)
+holla(27, "yoyoyo")
