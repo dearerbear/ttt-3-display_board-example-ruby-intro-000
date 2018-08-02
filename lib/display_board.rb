@@ -13,10 +13,9 @@ end
 
 display_board
 
-def holla(x)
+def holla(x, y)
   x.times do
-    puts "yo"
-    end
+    puts y    end
     end
 
-holla(27)
+holla(27, yoyoyo)
