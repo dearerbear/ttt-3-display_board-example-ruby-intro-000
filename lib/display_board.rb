@@ -9,7 +9,7 @@ def display_board
   puts row
   puts line
   puts row
-  puts test_row + "proof"
+  puts test_row
 end
 
 display_board
