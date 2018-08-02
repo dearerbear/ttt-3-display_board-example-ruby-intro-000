@@ -12,3 +12,11 @@ def display_board
 end
 
 display_board
+
+def holla(x)
+  x.times do
+    puts "yo"
+    end
+    end
+
+holla(27)
