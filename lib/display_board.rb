@@ -1,7 +1,7 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
   row_input = ["   ", "|", " x  ", "|", "   "]
-#  test_row = row_input.each { |a| print a }
+  test_row = row_input.join { |a| print a }
   row = String.new(row_input[0] + row_input[1] + row_input[2] + row_input[3] + row_input[4])
   line = "-----------"
   puts row
@@ -9,7 +9,7 @@ def display_board
   puts row
   puts line
   puts row
-#  puts test_row
+  puts test_row
 end
 
 display_board
